@@ -194,6 +194,9 @@ const ContextProvider = ({ children }) => {
             console.log(employeesLoaded.length)
             setEmployees(employeesLoaded)
         }
+        else{
+            setEmployees(employeesList)
+        }
     }, [])
 
 
