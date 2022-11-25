@@ -3,7 +3,7 @@ import { SiteContext } from '../ContextProvider'
 import TableRow from './TableRow'
 
 const TableDashboard = () => {
-    const { employees, removeEmployee, searchVal, searching, isChecked } = useContext(SiteContext)
+    const { employees, searchVal, searching, isChecked } = useContext(SiteContext)
 
     return (
         <div className="table-responsive mt-3 mt-md-4 mb-2">

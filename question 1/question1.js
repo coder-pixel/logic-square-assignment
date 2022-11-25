@@ -77,6 +77,16 @@ const search = (name) => {
         }
     ]
 
+    let cafeNames = document.querySelector(".cafeNames ul")
+    window.addEventListener("load", () => {
+        cafes.map(cafe => {
+            let li = document.createElement("li")
+            let text = document.createTextNode(cafe.name)
+            li.append(text)
+            cafeNames.append(li)
+        })
+    })
+
 
     let resCafe = []
     let finalRes = []
@@ -99,6 +109,7 @@ const search = (name) => {
         })
     })
 
+    console.log(`results for searchTerm (${name}):`)
     console.log(finalRes)
     return finalRes
 }

@@ -41,6 +41,114 @@ const ContextProvider = ({ children }) => {
             designation: "Junior Developer",
             available: true,
         },
+        {
+            id: 5,
+            name: "Eren",
+            gender: "male",
+            age: 29,
+            department: "Frontend",
+            designation: "Senior Developer",
+            available: true,
+        },
+        {
+            id: 6,
+            name: "Abhay Doe",
+            gender: "male",
+            age: 25,
+            department: "Testing",
+            designation: "Junior Tester",
+            available: false,
+        },
+        {
+            id: 7,
+            name: "Natasha",
+            gender: "female",
+            age: 23,
+            department: "Deployment",
+            designation: "Project Lead",
+            available: true,
+        },
+        {
+            id: 8,
+            name: "Sasha Doe",
+            gender: "female",
+            age: 43,
+            department: "Backend",
+            designation: "Senior Developer",
+            available: true,
+        },
+        {
+            id: 9,
+            name: "Marco",
+            gender: "male",
+            age: 36,
+            department: "Deployment",
+            designation: "Senior Developer",
+            available: true,
+        },
+        {
+            id: 10,
+            name: "Bella",
+            gender: "female",
+            age: 43,
+            department: "Backend",
+            designation: "Senior Developer",
+            available: false,
+        },
+        {
+            id: 11,
+            name: "Annie",
+            gender: "female",
+            age: 31,
+            department: "Frontend",
+            designation: "Senior Developer",
+            available: false,
+        },
+        {
+            id: 12,
+            name: "Alex Doe",
+            gender: "male",
+            age: 35,
+            department: "Backend",
+            designation: "Senior Developer",
+            available: true,
+        },
+        {
+            id: 13,
+            name: "Emma",
+            gender: "female",
+            age: 39,
+            department: "Deployment",
+            designation: "Senior Developer",
+            available: true,
+        },
+        {
+            id: 14,
+            name: "Alex Doe",
+            gender: "male",
+            age: 35,
+            department: "Backend",
+            designation: "Senior Developer",
+            available: true,
+        },
+        {
+            id: 15,
+            name: "Alexander",
+            gender: "male",
+            age: 27,
+            department: "Testing",
+            designation: "Senior Developer",
+            available: true,
+        },
+        {
+            id: 16,
+            name: "Alexa",
+            gender: "female",
+            age: 22,
+            department: "Frontend",
+            designation: "Junior Developer",
+            available: true,
+        },
     ]
 
     const [employees, setEmployees] = useState([])
@@ -85,7 +193,7 @@ const ContextProvider = ({ children }) => {
             console.log(employeesLoaded)
             console.log(employeesLoaded.length)
             setEmployees(employeesLoaded)
-        }   
+        }
     }, [])
 
 
